@@ -10,18 +10,20 @@ int main(void)
 		cout<<i;
 	cout<<endl;
 	
-	for(int i=2;i<=n;i++)
+	for(int i=2;i<n;i++)
 	{
 		cout<<i;
 		int j=u;
-		
+		if(u>0)
+		{
 		while(j--)
 			cout<<" ";
 		
 		u--;
+		}
 		cout<<n;
 		cout<<endl;	
 	}
-
+	cout<<n;
 	return 0;
 }
